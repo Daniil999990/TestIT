@@ -33,7 +33,7 @@ public class Controller {
     @FXML
     private Button answerBtn;
     @FXML
-    private Button closeProgramBtn;  // Додайте кнопку "Закрити програму"
+    private Button closeProgramBtn;
     private int nowQuestion = 0, correctAnswers;
     private String nowCorrectAnswer;
 
@@ -58,7 +58,7 @@ public class Controller {
             new Questions("Яка ключова різниця між ArrayList та LinkedList в Java?",
                     new String[]{"ArrayList є більш ефективним для вставки та вилучення, ніж LinkedList", "LinkedList є більш ефективним для операцій пошуку, ніж ArrayList", "Не один", "ArrayList базується на масиві, а LinkedList - на зв'язаних списках"}),
             new Questions("Яка різниця між HashSet та TreeSet в Java?",
-                    new String[]{"HashSet гарантує порядок додавання елементів", "HashSet не дозволяє дублікати елементів", "TreeSet гарантує сортування елементів за замовчуванням", "TreeSet використовує червоно-чорне дерево для зберігання елементів"})
+                    new String[]{"HashSet гарантує порядок додавання елементів", "HashSet не дозволяє дублікати елементів", "TreeSet гарантує сортування елементів за замовчуванням", "TreeSet використовує червоно-чорне дерево для зберігання елементів"}),
     };
 
     @FXML

@@ -72,14 +72,6 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button layoutX="14.0" layoutY="170.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="175.0" style="-fx-background-color: #fafafa; -fx-border-color: #ccc; -fx-border-radius: 5px;" stylesheets="@styles/main.css" text="Тест C++">
-               <font>
-                  <Font name="Montserrat Regular" size="13.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </Button>
 
             <Button layoutX="14.0" layoutY="410.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="175.0" style="-fx-background-color: #f7746a; -fx-border-color: #f7746a; -fx-border-radius: 5px;" stylesheets="@styles/main.css" text="Закрити програму" textFill="WHITE">
                <font>
